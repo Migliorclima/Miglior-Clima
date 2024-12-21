@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climatizzatori e Caldaie - La tua soluzione ideale</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Climatizzatori e Caldaie</h1>
+    <nav>
+      <ul>
+        <li><a href="#prodotti">Prodotti</a></li>
+        <li><a href="#confronto">Confronto</a></li>
+        <li><a href="#contatti">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>La soluzione ideale per il tuo comfort</h2>
+    <p>Scopri i migliori climatizzatori e caldaie per la tua casa o azienda.</p>
+    <a href="#prodotti" class="btn">Scopri i prodotti</a>
+  </section>
+
+  <section id="prodotti">
+    <h3>Prodotti</h3>
+    <div class="product">
+      <h4>Climatizzatori</h4>
+      <p>Efficienza energetica e design moderno.</p>
+      <a href="#" class="btn">Scopri di più</a>
+    </div>
+    <div class="product">
+      <h4>Caldaie</h4>
+      <p>Soluzioni per ogni esigenza e spazio.</p>
+      <a href="#" class="btn">Scopri di più</a>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <h3>Contattaci</h3>
+    <form action="#" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="messaggio">Messaggio:</label>
+      <textarea id="messaggio" name="messaggio" rows="5"></textarea>
+      
+      <button type="submit" class="btn">Invia</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Climatizzatori e Caldaie. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
